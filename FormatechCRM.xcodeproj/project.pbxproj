@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E1F8850A1C9880910013BF5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F885091C9880910013BF5C /* AppDelegate.swift */; };
-		E1F8850C1C9880910013BF5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8850B1C9880910013BF5C /* ViewController.swift */; };
 		E1F8850F1C9880910013BF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F8850D1C9880910013BF5C /* Main.storyboard */; };
 		E1F885111C9880910013BF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F885101C9880910013BF5C /* Assets.xcassets */; };
 		E1F885141C9880910013BF5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F885121C9880910013BF5C /* LaunchScreen.storyboard */; };
+		E1F8851C1C9883B70013BF5C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8851B1C9883B70013BF5C /* MainTableViewController.swift */; };
+		E1F8851E1C9883DA0013BF5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8851D1C9883DA0013BF5C /* DetailsViewController.swift */; };
+		E1F885201C9883F90013BF5C /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8851F1C9883F90013BF5C /* CustomerTableViewCell.swift */; };
+		E1F885251C9884500013BF5C /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F885241C9884500013BF5C /* Customer.swift */; };
+		E1F885271C98850A0013BF5C /* CRMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F885261C98850A0013BF5C /* CRMService.swift */; };
+		EC30D7F8A0B47B3A27A58288 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91931090CB35EDE29BC535D5 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3300A03C5353E6B984C96572 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		91931090CB35EDE29BC535D5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8DADE74F17C819549FF748 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E1F885061C9880910013BF5C /* FormatechCRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormatechCRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F885091C9880910013BF5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1F8850B1C9880910013BF5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1F8850E1C9880910013BF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1F885101C9880910013BF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1F885131C9880910013BF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1F885151C9880910013BF5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F8851B1C9883B70013BF5C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E1F8851D1C9883DA0013BF5C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		E1F8851F1C9883F90013BF5C /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		E1F885241C9884500013BF5C /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		E1F885261C98850A0013BF5C /* CRMService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRMService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC30D7F8A0B47B3A27A58288 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6752F1BB32FEB245AFF52CA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3300A03C5353E6B984C96572 /* Pods.debug.xcconfig */,
+				9A8DADE74F17C819549FF748 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF0E607891F9E63407CA51F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91931090CB35EDE29BC535D5 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1F884FD1C9880910013BF5C = {
 			isa = PBXGroup;
 			children = (
 				E1F885081C9880910013BF5C /* FormatechCRM */,
 				E1F885071C9880910013BF5C /* Products */,
+				6752F1BB32FEB245AFF52CA2 /* Pods */,
+				AF0E607891F9E63407CA51F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,42 @@
 		E1F885081C9880910013BF5C /* FormatechCRM */ = {
 			isa = PBXGroup;
 			children = (
+				E1F885231C98840E0013BF5C /* Models */,
+				E1F885221C9884090013BF5C /* Controllers */,
+				E1F885211C9884050013BF5C /* Views */,
 				E1F885091C9880910013BF5C /* AppDelegate.swift */,
-				E1F8850B1C9880910013BF5C /* ViewController.swift */,
-				E1F8850D1C9880910013BF5C /* Main.storyboard */,
 				E1F885101C9880910013BF5C /* Assets.xcassets */,
-				E1F885121C9880910013BF5C /* LaunchScreen.storyboard */,
 				E1F885151C9880910013BF5C /* Info.plist */,
 			);
 			path = FormatechCRM;
+			sourceTree = "<group>";
+		};
+		E1F885211C9884050013BF5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8850D1C9880910013BF5C /* Main.storyboard */,
+				E1F885121C9880910013BF5C /* LaunchScreen.storyboard */,
+				E1F8851F1C9883F90013BF5C /* CustomerTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1F885221C9884090013BF5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F8851B1C9883B70013BF5C /* MainTableViewController.swift */,
+				E1F8851D1C9883DA0013BF5C /* DetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E1F885231C98840E0013BF5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1F885241C9884500013BF5C /* Customer.swift */,
+				E1F885261C98850A0013BF5C /* CRMService.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1F885181C9880910013BF5C /* Build configuration list for PBXNativeTarget "FormatechCRM" */;
 			buildPhases = (
+				E57410D36E9DE3FF356FFCE3 /* Check Pods Manifest.lock */,
 				E1F885021C9880910013BF5C /* Sources */,
 				E1F885031C9880910013BF5C /* Frameworks */,
 				E1F885041C9880910013BF5C /* Resources */,
+				D818AF0A8CCDEB53851DCCAB /* Embed Pods Frameworks */,
+				FD07F8A8C38757DC8994EC40 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +193,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D818AF0A8CCDEB53851DCCAB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57410D36E9DE3FF356FFCE3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD07F8A8C38757DC8994EC40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1F885021C9880910013BF5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1F8850C1C9880910013BF5C /* ViewController.swift in Sources */,
+				E1F8851C1C9883B70013BF5C /* MainTableViewController.swift in Sources */,
+				E1F885251C9884500013BF5C /* Customer.swift in Sources */,
+				E1F885271C98850A0013BF5C /* CRMService.swift in Sources */,
 				E1F8850A1C9880910013BF5C /* AppDelegate.swift in Sources */,
+				E1F8851E1C9883DA0013BF5C /* DetailsViewController.swift in Sources */,
+				E1F885201C9883F90013BF5C /* CustomerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +360,7 @@
 		};
 		E1F885191C9880910013BF5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3300A03C5353E6B984C96572 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FormatechCRM/Info.plist;
@@ -256,6 +372,7 @@
 		};
 		E1F8851A1C9880910013BF5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8DADE74F17C819549FF748 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FormatechCRM/Info.plist;
@@ -284,6 +401,7 @@
 				E1F8851A1C9880910013BF5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
