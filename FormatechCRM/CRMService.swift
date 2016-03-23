@@ -81,7 +81,9 @@ class CRMService {
                         let id: String = dict.objectForKey("id") as! String
                         let name: String = dict.objectForKey("name") as! String
                         let balance: Double = dict.valueForKey("balance") as! Double
-                        customers.append(Customer(id: id, name: name, balance: balance)) //Make a customer model from received data
+                        let latitude: Double = dict.valueForKey("lat") as! Double
+                        let longitude: Double = dict.valueForKey("lon") as! Double
+                        customers.append(Customer(id: id, name: name, balance: balance, latitude: latitude, longitude: longitude)) //Make a customer model from received data
                     }
                     // Finally, we invoke the Closure that was passed by the developer along with the result and a nil error (which says there was no error and everything was fine)
                     callback(customers: customers, error: nil)

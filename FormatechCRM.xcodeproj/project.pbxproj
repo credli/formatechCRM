@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16016F41CA1C094001C9A3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16016F31CA1C094001C9A3A /* CoreLocation.framework */; };
+		E16016F61CA29515001C9A3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16016F51CA29515001C9A3A /* MapKit.framework */; };
+		E16016F81CA298FA001C9A3A /* CustomerAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16016F71CA298FA001C9A3A /* CustomerAnnotation.swift */; };
 		E1F8850A1C9880910013BF5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F885091C9880910013BF5C /* AppDelegate.swift */; };
 		E1F8850F1C9880910013BF5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F8850D1C9880910013BF5C /* Main.storyboard */; };
 		E1F885111C9880910013BF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F885101C9880910013BF5C /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 		3300A03C5353E6B984C96572 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		91931090CB35EDE29BC535D5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8DADE74F17C819549FF748 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E16016F31CA1C094001C9A3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E16016F51CA29515001C9A3A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E16016F71CA298FA001C9A3A /* CustomerAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerAnnotation.swift; sourceTree = "<group>"; };
 		E1F885061C9880910013BF5C /* FormatechCRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormatechCRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F885091C9880910013BF5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F8850E1C9880910013BF5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16016F61CA29515001C9A3A /* MapKit.framework in Frameworks */,
+				E16016F41CA1C094001C9A3A /* CoreLocation.framework in Frameworks */,
 				EC30D7F8A0B47B3A27A58288 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +68,8 @@
 		AF0E607891F9E63407CA51F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E16016F51CA29515001C9A3A /* MapKit.framework */,
+				E16016F31CA1C094001C9A3A /* CoreLocation.framework */,
 				91931090CB35EDE29BC535D5 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -102,6 +112,7 @@
 				E1F8850D1C9880910013BF5C /* Main.storyboard */,
 				E1F885121C9880910013BF5C /* LaunchScreen.storyboard */,
 				E1F8851F1C9883F90013BF5C /* CustomerTableViewCell.swift */,
+				E16016F71CA298FA001C9A3A /* CustomerAnnotation.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -248,6 +259,7 @@
 			files = (
 				E1F8851C1C9883B70013BF5C /* MainTableViewController.swift in Sources */,
 				E1F885251C9884500013BF5C /* Customer.swift in Sources */,
+				E16016F81CA298FA001C9A3A /* CustomerAnnotation.swift in Sources */,
 				E1F885271C98850A0013BF5C /* CRMService.swift in Sources */,
 				E1F8850A1C9880910013BF5C /* AppDelegate.swift in Sources */,
 				E1F8851E1C9883DA0013BF5C /* DetailsViewController.swift in Sources */,

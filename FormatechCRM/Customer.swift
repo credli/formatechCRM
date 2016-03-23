@@ -10,10 +10,14 @@ class Customer {
     var id: String
     var name: String
     var balance: Double
+    var latitude: Double
+    var longitude: Double
     
-    init(id theid: String, name: String, balance: Double) {
+    init(id theid: String, name: String, balance: Double, latitude: Double, longitude: Double) {
         self.id = theid
         self.name = name
         self.balance = balance
+        self.latitude = latitude
+        self.longitude = longitude
     }
 }
